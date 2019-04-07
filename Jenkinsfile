@@ -11,5 +11,15 @@ pipeline {
         sleep 5
       }
     }
+    stage('Deliver') {
+      steps {
+        sleep 2
+      }
+    }
+    stage('end') {
+      steps {
+        sleep 1
+      }
+    }
   }
 }
